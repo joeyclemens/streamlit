@@ -4,7 +4,7 @@ import numpy as np
 
 
 st.title('Uber pickups in NYC')
-st.subheader('Made by Joey')
+st.subheader('19-12-2022')
 
 
 
