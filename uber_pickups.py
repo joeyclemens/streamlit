@@ -1,7 +1,3 @@
-<html>
-<body>
-<h1>hello</h1>
-<py-script>
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -45,6 +41,3 @@ filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
 st.subheader(f'Map of all pickups at {hour_to_filter}:00')
 st.map(filtered_data)
 
- </py-script>
-  </body>
-</html>
